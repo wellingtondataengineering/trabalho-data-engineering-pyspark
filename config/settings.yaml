@@ -1,0 +1,19 @@
+# src/config/settings.yaml
+spark:
+  app_name: "Analise de Pedidos e pagamentos"
+
+paths:
+  pagamentos: "./trabalho-data-engineering-pyspark/data/input/datasets-json-pagamentos/data/pagamentos/"
+  pedidos: "./trabalho-data-engineering-pyspark/data/input/datasets-csv-pedidos/data/pedidos/"
+  output: "./trabalho-data-engineering-pyspark/data/output/pedidos_pagamentos"
+  output_relatorios: "./trabalho-data-engineering-pyspark/data/output/relatorios"
+
+file_options:
+  pedidos_csv:
+    compression: "gzip"
+    header: True
+    sep: ";"
+
+  pagamentos_json:
+    compression: "gzip"
+    header: True
