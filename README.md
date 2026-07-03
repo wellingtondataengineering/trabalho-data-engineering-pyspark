@@ -1,4 +1,4 @@
-# Trabalho Final – Pipeline de Dados com PySpark
+# Trabalho – Pipeline de Dados com PySpark
 
 ## Descrição
 
